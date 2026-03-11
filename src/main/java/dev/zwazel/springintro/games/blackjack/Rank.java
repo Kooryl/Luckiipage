@@ -1,27 +1,14 @@
-package dev.zwazel.springintro.games.blackjack;
-
-public enum Rank {
-    TWO(2),
-    THREE(3),
-    FOUR(4),
-    FIVE(5),
-    SIX(6),
-    SEVEN(7),
-    EIGHT(8),
-    NINE(9),
-    TEN(10),
-    JACK(10),
-    QUEEN(10),
-    KING(10),
-    ACE(11);
-
-    private final int value;
-
-    Rank(int value) {
-        this.value = value;
-    }
-
-    public int getValue() {
-        return value;
-    }
-}
+/*
+ * TODO: Rank.java
+ * Purpose:
+ * - Define all card ranks used in blackjack and their base values.
+ *
+ * Planned values:
+ * - TWO to TEN (2..10)
+ * - JACK, QUEEN, KING (10)
+ * - ACE (start as 11)
+ *
+ * Notes:
+ * - Ace optimization (11 -> 1) is handled in hand value calculation, not here.
+ * - Keep this file focused on rank definitions only.
+ */
